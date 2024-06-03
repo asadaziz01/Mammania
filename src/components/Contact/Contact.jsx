@@ -3,15 +3,15 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className='contact'>
-      <div className="left-contact">
-        <h1>Looking</h1> 
-        <h1>forward to</h1>
-        <h1>hear from you</h1>
-        <h1>♡</h1>
+    <div className="contact-container">
+      <div className="contact-left">
+        <h2 className="contact-title">Looking forward to hear from you</h2>
+        <p className="contact-heart">♡</p>
       </div>
-      <div className="right-contact">
-        <h3>Main Shop</h3>
+      <div className="contact-right">
+        <p className="contact-item"><strong>MAIN SHOP</strong><br/>Whitefield, Blr</p>
+        <p className="contact-item"><strong>INSTAGRAM</strong><br/><span>@</span>mammania</p>
+        <p className="contact-item"><strong>PHONE NUMBER</strong><br/><span>8340273835</span></p>
       </div>
     </div>
   )

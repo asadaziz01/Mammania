@@ -1,6 +1,6 @@
 @import "../../App.css";
 
-body {
+/* body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f3f3f3;
@@ -39,4 +39,55 @@ h1{
 h3{
     font-family: CGBold;
     color: #402620;
-}
+} */
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D9C9B5;
+    font-family: TMC;
+    height: 100vh;
+  }
+  
+  .contact-left {
+    max-width: 40%;
+  }
+  
+  .contact-title {
+    font-size: 55px;
+    color: #402620;
+    text-align: center;
+  }
+  
+  .contact-heart {
+    font-size: 70px;
+    color: #402620;
+    margin-top: -17px;
+    text-align: center;
+  }
+  
+  .contact-right {
+    position: inherit;
+  }
+  
+  .contact-item {
+    position: relative;
+    right: 65px;
+    font-family: CG;
+    font-size: 18px;
+    color: #402620;
+    margin-bottom: 40px;
+  }
+  
+  .contact-item strong {
+    font-family: CGBold;
+    display: block;
+    font-size: 25px;
+    color: #402620;
+    margin-bottom: -15px;
+  }
+  
+  span{
+    font-family: sans-serif;
+  }
