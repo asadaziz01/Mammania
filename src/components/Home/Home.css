@@ -1,0 +1,78 @@
+@import "../../App.css";
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #e6d4c5; */
+    background-color: #B5997D;
+  }
+  .left {
+    flex: 2;
+    text-align: center;
+    padding: 20px;
+    position: inherit;
+  }
+  
+  .right {
+    flex: 3;
+    text-align: center;
+    padding: 20px;
+    position: inherit;
+  }
+  
+  .right img{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .title {
+    position: relative;
+    font-family: TMC;
+    font-size: 60px;
+    color: #402620;
+    margin: 0;
+    top: -37px;
+  }
+  
+  .subtitle {
+    text-transform: capitalize;
+    position: relative;
+    font-family: CG;
+    font-size: 18px;
+    color: #402620;
+    margin: 7px 0;
+    top: 8px;
+  }
+  
+  .shop-button {
+    position: relative;
+    top: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #B5997D;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .shop-button:hover {
+    background-color: #e6d4c5;
+    color: #402620;
+  }
+  
+  .brownie-image {
+    max-width: 100%;
+    height: auto;
+    left: 20px;
+    position: relative;
+  }
+  

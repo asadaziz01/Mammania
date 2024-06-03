@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: TMC;
+    src: url(./font/TMC.otf);
+  }
+
+  @font-face {
+    font-family: CG;
+    src: url(./font/CG.ttf);
+  }
