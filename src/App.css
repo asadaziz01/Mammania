@@ -13,3 +13,8 @@
     font-family: CG;
     src: url(./font/CG.ttf);
   }
+
+  @font-face {
+    font-family: CGBold;
+    src: url(./font/CGBold.ttf);
+  }

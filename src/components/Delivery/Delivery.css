@@ -6,73 +6,59 @@ body {
     background-color: #f3f3f3;
   }
   
-  .container {
+  .container-delivery {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-color: #e6d4c5; */
-    background-color: #B5997D;
+    background-color: #74512D;
   }
-  .left {
-    flex: 2;
+  .right-delivery {
+    flex: 1;
     text-align: center;
     padding: 20px;
     position: inherit;
   }
   
-  .right {
-    flex: 3;
+  .left-delivery {
+    flex: 1;
     text-align: center;
     padding: 20px;
     position: inherit;
   }
-  
-  .right img{
-    width: 100%;
-    height: 100.5vh;
-  }
-  
-  .title {
+
+  .title-delivery {
     position: relative;
     font-family: TMC;
     font-size: 60px;
-    color: #402620;
+    color: #B5997D;
     margin: 0;
     top: -37px;
   }
   
-  .subtitle {
-    text-transform: capitalize;
-    position: relative;
-    font-family: CG;
-    font-size: 18px;
-    color: #402620;
-    margin: 7px 0;
-    top: 8px;
-  }
   
-  .shop-button {
+  .shop-button-delivery {
     position: relative;
     top: 50px;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #B5997D;
+    background-color: #74512D;
     border: 1px solid white;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
   }
   
-  .shop-button:hover {
+  .shop-button-delivery:hover {
     background-color: #e6d4c5;
     color: #402620;
   }
   
-  .brownie-image {
-    max-width: 100%;
-    height: auto;
-    left: 20px;
+  .delivery-image {
+    top: 2px;
+    width: 110%;
+    height: 100vh;
+    right: 28px;
     position: relative;
   }
   

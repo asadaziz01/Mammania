@@ -1,0 +1,42 @@
+@import "../../App.css";
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.contact{
+    background-color: #D9C9B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-contact{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-contact{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: TMC;
+    color: #402620;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    font-family: CGBold;
+    color: #402620;
+}
