@@ -1,10 +1,47 @@
-.menu-container{
+@import "../../App.css"; 
+
+.menu-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B5997D;
+    height: 160vh;
+    font-family: CGBold;
+    position: inherit;
+}
+
+.menu{
+    width: 50%;
+    height: 150vh;
+}
+
+.menu-down{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.menu{
-    width: 100%;
-    height: 300vh;
-}
+.menu-button {
+    position: relative;
+    top: -60px;
+    right: 95px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #B5997D;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .menu-button:hover {
+    background-color: #e6d4c5;
+    color: #402620;
+  }
+
+  .menu-para{
+    position: relative;
+    left: 170px;
+    top: -115px;
+    font-size: 25px;
+  }

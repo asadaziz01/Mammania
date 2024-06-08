@@ -9,7 +9,7 @@ const Contact = () => {
         <p className="contact-heart">♡</p>
       </div>
       <div className="contact-right">
-        <p className="contact-item"><strong>MAIN SHOP</strong><br/>Whitefield, Blr</p>
+        <p className="contact-item"><strong>MAIN SHOP</strong><br/>Patna, Bihar</p>
         <p className="contact-item"><strong>INSTAGRAM</strong><br/><span>@</span>mammania</p>
         <p className="contact-item"><strong>PHONE NUMBER</strong><br/><span>8340273835</span></p>
       </div>
