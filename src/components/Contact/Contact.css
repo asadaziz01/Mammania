@@ -1,45 +1,12 @@
 @import "../../App.css";
 
-/* body {
+  body {
+    padding: 0;
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f3f3f3;
+    background-color: #B5997D;
+    overflow-x: hidden;
 }
-
-.contact{
-    background-color: #D9C9B5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.left-contact{
-    flex: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.right-contact{
-    flex: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1{
-    font-family: TMC;
-    color: #402620;
-    font-size: 50px;
-    text-align: center;
-}
-
-h3{
-    font-family: CGBold;
-    color: #402620;
-} */
 
 .contact-container {
     display: flex;
@@ -91,3 +58,42 @@ h3{
   span{
     font-family: sans-serif;
   }
+
+/* @media (min-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .contact-left {
+    max-width: 50%;
+  }
+
+  .contact-right {
+    max-width: 50%;
+  }
+
+  .contact-item {
+    right: 0;
+  }
+} */
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .contact-left,
+  .contact-right {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-item {
+    right: 0;
+    text-align: center;
+  }
+}

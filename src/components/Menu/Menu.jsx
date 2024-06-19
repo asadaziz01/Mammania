@@ -12,9 +12,11 @@ function Menu() {
 
   return (
     <div className='menu-container'>
-      <div className="menu-up">
+      <div className="menu-left">
         <img src={menu} alt="Menu" className='menu' />
-        <p className='menu-para'>Fill Out the Form or Contact Us!!</p>
+      </div>
+      <div className="menu-right">
+        <p className='menu-para'>Contact Us!!</p>
         <button onClick={goToHome} className="menu-button">Go to Home</button>
       </div>
     </div>

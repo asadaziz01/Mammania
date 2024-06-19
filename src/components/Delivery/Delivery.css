@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #74512D;
+    background-color: #B5997D;
   }
   .right-delivery {
     flex: 1;
@@ -31,19 +31,19 @@ body {
     position: relative;
     font-family: TMC;
     font-size: 60px;
-    color: #B5997D;
+    color: #402620;
     margin: 0;
-    top: -37px;
+    top: -100px;
   }
   
   
   .shop-button-delivery {
     position: relative;
-    top: 50px;
+    top: -50px;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #74512D;
+    background-color: #B5997D;
     border: 1px solid white;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
@@ -61,4 +61,33 @@ body {
     right: 28px;
     position: relative;
   }
+
+  h4{
+    font-family: CG;
+    position: relative;
+    top: 0px;
+  }
+
+  .orderSite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+  }
+
+  .instagram{
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .title-delivery{
+      text-align: center;
+    }
+    .left-delivery{
+      display: none;
+    }
+  }
+
   
