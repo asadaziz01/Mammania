@@ -11,7 +11,7 @@ export default function Delivery() {
       </div>
       <div className="right-delivery">
         <h1 className="title-delivery">We deliver anywhere!</h1>
-        <Link to="/menu"><button className="shop-button-delivery">Explore Menu</button></Link>
+        <Link to="/Mammania/menu"><button className="shop-button-delivery">Explore Menu</button></Link>
         <h4>- Order Now -</h4>
         <div className="orderSite">
           <Link to="https://www.instagram.com/mammania" target="_blank"><button className="shop-button-delivery instagram">Order On Instagram</button></Link>

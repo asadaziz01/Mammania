@@ -7,7 +7,7 @@ function Menu() {
   const navigate = useNavigate();
 
   const goToHome = () => {
-    navigate('/');
+    navigate('/Mammania');
   };
 
   return (

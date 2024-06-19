@@ -12,8 +12,8 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<><Home /><Samples /><Delivery /><Contact /></>} />
-        <Route path="/menu" element={<><Menu /></>} />
+        <Route path="/Mammania" element={<><Home /><Samples /><Delivery /><Contact /></>} />
+        <Route path="/Mammania/menu" element={<><Menu /></>} />
         <Route path="*" element={<NotFoundErrorPage />} />
       </Routes>
     </BrowserRouter>
