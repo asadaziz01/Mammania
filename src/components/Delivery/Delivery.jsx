@@ -14,8 +14,8 @@ export default function Delivery() {
         <Link to="/menu"><button className="shop-button-delivery">Explore Menu</button></Link>
         <h4>- Order Now -</h4>
         <div className="orderSite">
-          <Link to="/menu"><button className="shop-button-delivery instagram">Order On Instagram</button></Link>
-          <Link to="/menu"><button className="shop-button-delivery">Order On WhatsApp</button></Link>
+          <Link to="https://www.instagram.com/mammania" target="_blank"><button className="shop-button-delivery instagram">Order On Instagram</button></Link>
+          <Link to="https://wa.me/918797839792" target="_blank"><button className="shop-button-delivery">Order On WhatsApp</button></Link>
         </div>
       </div>
     </div>

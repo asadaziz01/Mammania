@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contact-right">
         <p className="contact-item"><strong>MAIN SHOP</strong><br/>Patna, Bihar</p>
         <p className="contact-item"><strong>INSTAGRAM</strong><br/><span>@</span>mammania</p>
-        <p className="contact-item"><strong>PHONE NUMBER</strong><br/><span>8797839792</span></p>
+        <p className="contact-item"><strong>PHONE NUMBER</strong><br/><span>+91 8797839792</span></p>
       </div>
     </div>
   )
