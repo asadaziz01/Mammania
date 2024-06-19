@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6713a744.css",
-    "main.js": "/static/js/main.240daf7d.js",
-    "static/media/pizza.jpg": "/static/media/pizza.260b5c0908290cda88eb.jpg",
-    "static/media/CG.ttf": "/static/media/CG.3112050b5b25c5a5b2d7.ttf",
-    "static/media/CGBold.ttf": "/static/media/CGBold.871a0ec335959eace173.ttf",
-    "static/media/first.jpg": "/static/media/first.63ffe1e742814dad94dd.jpg",
-    "static/media/Menu2.jpg": "/static/media/Menu2.53e499099d4da8bbe246.jpg",
-    "static/media/delivery.jpg": "/static/media/delivery.36373d9c2cd80a5bce62.jpg",
-    "static/media/cookies.jpg": "/static/media/cookies.fe7b3aafba0ac708227b.jpg",
-    "static/media/cakes.jpg": "/static/media/cakes.c3f20e4639342c1a7b31.jpg",
-    "static/media/TMC.otf": "/static/media/TMC.72809d739b6e3b036176.otf",
-    "static/media/logo.png": "/static/media/logo.83b67eab4e8b20a5d04e.png",
-    "index.html": "/index.html",
-    "main.6713a744.css.map": "/static/css/main.6713a744.css.map",
-    "main.240daf7d.js.map": "/static/js/main.240daf7d.js.map"
+    "main.css": "/Mammania/static/css/main.52a4b5b7.css",
+    "main.js": "/Mammania/static/js/main.52a8dbb1.js",
+    "static/media/pizza.jpg": "/Mammania/static/media/pizza.260b5c0908290cda88eb.jpg",
+    "static/media/CG.ttf": "/Mammania/static/media/CG.3112050b5b25c5a5b2d7.ttf",
+    "static/media/CGBold.ttf": "/Mammania/static/media/CGBold.871a0ec335959eace173.ttf",
+    "static/media/first.jpg": "/Mammania/static/media/first.63ffe1e742814dad94dd.jpg",
+    "static/media/Menu2.jpg": "/Mammania/static/media/Menu2.53e499099d4da8bbe246.jpg",
+    "static/media/delivery.jpg": "/Mammania/static/media/delivery.36373d9c2cd80a5bce62.jpg",
+    "static/media/cookies.jpg": "/Mammania/static/media/cookies.fe7b3aafba0ac708227b.jpg",
+    "static/media/cakes.jpg": "/Mammania/static/media/cakes.c3f20e4639342c1a7b31.jpg",
+    "static/media/TMC.otf": "/Mammania/static/media/TMC.72809d739b6e3b036176.otf",
+    "static/media/logo.png": "/Mammania/static/media/logo.83b67eab4e8b20a5d04e.png",
+    "index.html": "/Mammania/index.html",
+    "main.52a4b5b7.css.map": "/Mammania/static/css/main.52a4b5b7.css.map",
+    "main.52a8dbb1.js.map": "/Mammania/static/js/main.52a8dbb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6713a744.css",
-    "static/js/main.240daf7d.js"
+    "static/css/main.52a4b5b7.css",
+    "static/js/main.52a8dbb1.js"
   ]
 }
