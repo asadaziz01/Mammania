@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mammania/static/css/main.52a4b5b7.css",
-    "main.js": "/Mammania/static/js/main.4b8d9b04.js",
+    "main.js": "/Mammania/static/js/main.c9b5d813.js",
     "static/media/pizza.jpg": "/Mammania/static/media/pizza.260b5c0908290cda88eb.jpg",
     "static/media/CG.ttf": "/Mammania/static/media/CG.3112050b5b25c5a5b2d7.ttf",
     "static/media/CGBold.ttf": "/Mammania/static/media/CGBold.871a0ec335959eace173.ttf",
@@ -14,10 +14,10 @@
     "static/media/logo.png": "/Mammania/static/media/logo.83b67eab4e8b20a5d04e.png",
     "index.html": "/Mammania/index.html",
     "main.52a4b5b7.css.map": "/Mammania/static/css/main.52a4b5b7.css.map",
-    "main.4b8d9b04.js.map": "/Mammania/static/js/main.4b8d9b04.js.map"
+    "main.c9b5d813.js.map": "/Mammania/static/js/main.c9b5d813.js.map"
   },
   "entrypoints": [
     "static/css/main.52a4b5b7.css",
-    "static/js/main.4b8d9b04.js"
+    "static/js/main.c9b5d813.js"
   ]
 }
