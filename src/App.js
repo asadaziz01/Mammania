@@ -4,19 +4,20 @@ import Delivery from './components/Delivery/Delivery';
 import Contact from './components/Contact/Contact';
 import Menu from './components/Menu/Menu';
 import NotFoundErrorPage from './components/NotFoundErrorPage/NotFoundErrorPage';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
-      <Routes>
-        <Route path="/Mammania" element={<><Home /><Samples /><Delivery /><Contact /></>} />
-        <Route path="/Mammania/menu" element={<><Menu /></>} />
+    <Router>
+      <Switch>
+        <Route path="/" element={<><Home /><Samples /><Delivery /><Contact /></>} />
+        <Route path="/menu" element={<><Menu /></>} />
         <Route path="*" element={<NotFoundErrorPage />} />
-      </Routes>
-    </BrowserRouter>
+      </Switch>
+    </Router>
     </div>
   );
 }

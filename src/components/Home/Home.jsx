@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="title">Mammania</h1>
         <p className="subtitle">FOOD SO GOOD, THEY'LL DRIVE</p>
         <p className="subtitle">YOU MAMMA MIA!</p>
-        <Link to="/Mammania/menu"><button className="shop-button">Explore Menu</button></Link>
+        <Link to="/menu"><button className="shop-button">Explore Menu</button></Link>
       </div>
       <div className="right">
         <img src={brownieImage} alt="Brownie" className="brownie-image" />

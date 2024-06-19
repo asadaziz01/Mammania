@@ -6,7 +6,7 @@ const NotFoundErrorPage = () => {
   const navigate = useNavigate();
 
   const goToHome = () => {
-    navigate('/Mammania');
+    navigate('/');
   };
   return (
     <div className="error-container">
