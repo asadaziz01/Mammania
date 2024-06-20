@@ -1,7 +1,7 @@
 import React from 'react';
 import './Samples.css'; 
 import cookiesImg from '../../images/cookies.jpg';
-import cakesImg from '../../images/cakes.jpg';
+import brownieImg from '../../images/Brownies.png';
 import pizzaImg from '../../images/pizza.jpg';
 
 const Samples = () => {
@@ -15,9 +15,9 @@ const Samples = () => {
           <p className="sample-description">Chocolate chip, double chocolate & peanut butter flavors</p>
         </div>
         <div className="sample-item">
-          <img src={cakesImg} alt="Mouthwatering Cakes" className="sample-image" />
-          <h3 className="sample-heading">MOUTHWATERING CAKES</h3>
-          <p className="sample-description">Chocolate, red velvet, carrot choco lava & cheesecakes</p>
+          <img src={brownieImg} alt="Mouthwatering Cakes" className="sample-image" />
+          <h3 className="sample-heading">MOUTHWATERING BROWNIES</h3>
+          <p className="sample-description">Chocolate, double chocolate, caramel, cookie & cheesecakes</p>
         </div>
         <div className="sample-item">
           <img src={pizzaImg} alt="Freshly Baked Pizza" className="sample-image" />
